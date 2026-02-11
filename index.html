@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Background Remover </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <h1>Background Remover</h1>
+  <label class="upload">Select Image<input type="file" id="fileInput" accept="image/*" hidden></label>
+  <img id="preview"><img id="result">
+  <button id="removeBtn">Remove Background</button>
+  <div class="progress"><div id="bar"></div></div>
+  <div class="actions"><button id="pngBtn">PNG</button><button id="jpgBtn">JPG</button></div>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
